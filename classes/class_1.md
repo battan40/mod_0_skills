@@ -11,6 +11,7 @@ Class: Reservation
 * reservationSecured (Boolean)
 * tableLocation ("string")
 * reservationConfirmed (boolean)
+* headChef
 
 
 **Methods:**
