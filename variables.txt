@@ -1,0 +1,32 @@
+var food = "vegetables"
+console.log(food);
+
+//food.length;
+//returns the number of characters in the string representing the variable food
+//returns: 10
+
+var isDelicious = true
+console.log(isDelicious);
+
+food = "steak"
+console.log(food);
+// food.length;
+//this code now returns the number of characters in reassigned variable food.
+// returns: 5
+
+var num2 = 2
+
+var num7 = 7
+
+var quotient = 7/2
+
+console.log(num2);
+console.log(num7);
+console.log(quotient);
+
+
+var songs = ["friends", "blue", "green"]
+
+var songsUpdate = songs.shift(' ')
+console.log(songs);
+console.log(songs.shift);
