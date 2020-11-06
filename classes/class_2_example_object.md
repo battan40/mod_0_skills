@@ -14,7 +14,7 @@ Object/Instance: Tavernetta Opening Checklist
 
 **Methods:**
 
-* changeStaffHours: false
-* removeItem: false
-* cancelReservation: 101
-* shiftMealLight: ["bread", "salad", "pasta"]
+* changeStaffHours: staffClockedIn = false
+* removeItem: chefConfirmsMenu = false
+* cancelReservation: numberOfReservations = 101
+* shiftMealLight: shiftMeal = ["bread", "salad", "pasta"]

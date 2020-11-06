@@ -3,7 +3,7 @@ Class: Reservation
 
 **Attributes:**
 
-* chefReommenations (["array", "of", "strings"])
+* listChefRecommendations (["array", "of", "strings"])
 * numberOfStaff (integer)
 * allergyFriendlyTonight (boolean)
 * allergyList (hash)
@@ -14,10 +14,10 @@ Class: Reservation
 * headChef
 
 
+
 **Methods:**
 
-* chefQuit (reassign the numberOfStaff integer)
+* chefQuit (subtract from and reassign the numberOfStaff integer, reassign headChef integer to 0)
 * removeItem (subtracting element from the bestMenuItems array attribute)
-* changeAddress (function changing the string of the changeAddress attribute)
 * sitByFirePlace (reassigning value to the tableLocation attribute)
-* reservationCancancelled (reassign value of reservationConfirmed boolean attribute)
+* reservationCancelled (reassign value of reservationConfirmed boolean attribute)
